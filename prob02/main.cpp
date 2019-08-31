@@ -1,5 +1,5 @@
 // Name:
-// This program calculates the area of a room.
+// This program calculates the area of a room. 
 
 #include <iostream>
 
