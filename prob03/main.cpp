@@ -14,17 +14,17 @@ int main()
 
   // Adding tax to total cost.
   tax = 0.0775 * total_meal_cost;
-  std::cout << "tax:        " << tax << "\n";
+  std::cout << "Tax: \t\t " << tax << "\n";
 
   // Adding tip to total cost.
   tip = 0.20 * total_meal_cost;
-  std::cout << "tip:        " << tip << "\n";
+  std::cout << "Tip: \t\t " << tip << "\n";
 
   // Calculate total meal cost, tax, and tip.
   total_bill = total_meal_cost + tax + tip;
 
   // The total bill cost.
-  std::cout << "The \"total bill\": " << total_bill << ". \n";
+  std::cout << "Total Bill: \t" << total_bill << " \n";
 
   return 0;
 }
